@@ -380,11 +380,6 @@ fabric.properties
 
 
 ##### VisualStudioCode.gitignore #####
-.vscode/*
-# !.vscode/settings.json
-# !.vscode/tasks.json
-# !.vscode/launch.json
-!.vscode/extensions.json
 *.code-workspace
 .envs
 
@@ -434,7 +429,6 @@ benchmark/gaia/results.jsonl
 .container/.env
 
 # Environment variables files (ignore real envs, keep examples)
-/.env*
 !/.env*.example
 
 ##### Node.js/TypeScript.gitignore #####
@@ -468,3 +462,8 @@ yarn-error.log*
 
 # Lark OAuth tokens (sensitive)
 .lark_tokens.json
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
+node_modules
